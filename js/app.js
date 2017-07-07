@@ -123,8 +123,8 @@ $(document).ready(function() {
 	}
 
 	//$(window).on('load', function() {
-			$('.lazy').addClass('carregado');
 		window.setTimeout(function(){
+			$('.lazy').addClass('carregado');
 		},100);
 		$('.lazy').each(function(i) {			
 			//setTimeout(function() {
